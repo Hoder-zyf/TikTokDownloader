@@ -610,7 +610,7 @@ class TikTok:
             earliest=earliest,
             latest=latest,
             tiktok=tiktok,
-            mode=tab,
+            mode=tab or "post",
             info=info,
         )
 
