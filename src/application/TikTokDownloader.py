@@ -26,7 +26,7 @@ from src.manager import Database, DownloadRecorder
 from src.module import Cookie, MigrateFolder
 from src.record import BaseLogger, LoggerManager
 from src.tools import (
-    Browser,
+    # Browser,
     ColorfulConsole,
     DownloaderError,
     RenameCompatible,
@@ -110,10 +110,10 @@ class TikTokDownloader:
         }
         self.__function_menu = (
             (_("从剪贴板读取 Cookie (抖音)"), self.write_cookie),
-            (_("从浏览器读取 Cookie (抖音)"), self.browser_cookie),
+            # (_("从浏览器读取 Cookie (抖音)"), self.browser_cookie),
             # (_("扫码登录获取 Cookie (抖音)"), self.auto_cookie),
             (_("从剪贴板读取 Cookie (TikTok)"), self.write_cookie_tiktok),
-            (_("从浏览器读取 Cookie (TikTok)"), self.browser_cookie_tiktok),
+            # (_("从浏览器读取 Cookie (TikTok)"), self.browser_cookie_tiktok),
             (_("终端交互模式"), self.complete),
             (_("后台监听模式"), self.monitor),
             (_("Web API 模式"), self.server),
@@ -281,8 +281,8 @@ class TikTokDownloader:
                     [i for i, __ in self.__function_menu],
                     self.console,
                     separate=(
-                        4,
-                        8,
+                        2,
+                        6,
                     ),
                 )
             await self.compatible(mode)
@@ -444,19 +444,19 @@ class TikTokDownloader:
             remove_empty_directories(self.parameter.root)
         self.parameter.logger.info(_("正在关闭程序"))
 
-    async def browser_cookie(
-        self,
-    ):
-        if Browser(self.parameter, self.cookie).run(
-            select=safe_pop(self.run_command),
-        ):
-            await self.check_settings()
-
-    async def browser_cookie_tiktok(
-        self,
-    ):
-        if Browser(self.parameter, self.cookie).run(
-            True,
-            select=safe_pop(self.run_command),
-        ):
-            await self.check_settings()
+    # async def browser_cookie(
+    #     self,
+    # ):
+    #     if Browser(self.parameter, self.cookie).run(
+    #         select=safe_pop(self.run_command),
+    #     ):
+    #         await self.check_settings()
+    #
+    # async def browser_cookie_tiktok(
+    #     self,
+    # ):
+    #     if Browser(self.parameter, self.cookie).run(
+    #         True,
+    #         select=safe_pop(self.run_command),
+    #     ):
+    #         await self.check_settings()

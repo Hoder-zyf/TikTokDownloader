@@ -140,9 +140,7 @@ demo()
 <li>After extracting, open the program folder and double-click to run <code>main</code>.</li>
 </ol>
 <ol><b>Configure the environment to run</b>
-
-[//]: # (<li>Install Python interpreter version not lower than <code>3.12</code></li>)
-<li>Install the <a href="https://www.python.org/">Python</a> interpreter version <code>3.12</code></li>
+<li>Install <a href="https://www.python.org/">Python</a> interpreter version not lower than <code>3.12</code></li>
 <li>Download the latest source code or the source code released in <a href="https://github.com/JoeanAmier/TikTokDownloader/releases/latest">Releases</a> to your local machine</li>
 <ol><b>Install project dependencies using pip</b>
 <li>Run the command <code>python -m venv venv</code> to create a virtual environment (optional)</li>
@@ -158,12 +156,12 @@ demo()
 </li>
 <li>Read the disclaimer of DouK-Downloader and enter content according to the prompt.</li>
 <li>Write Cookie Information into Configuration File 
-<ol><b>Read Cookie from Clipboard(Recommended)</b>
+<ol><b>Read Cookie from Clipboard</b>
 <li>Refer to the <a href="https://github.com/JoeanAmier/TikTokDownloader/blob/master/docs/Cookie%E8%8E%B7%E5%8F%96%E6%95%99%E7%A8%8B.md">Cookie Extraction Tutorial</a>, copy the required Cookie to the clipboard</li>
 <li>Select the <code>Extracting cookie from clipboard</code> option, the program will automatically read the Cookie from the clipboard and write it into the configuration file</li>
 </ol>
-<ol><b>Read Cookie from Browser</b>
-<li>Select the <code>Extracting cookie from browser</code> option, then follow the prompts to input the browser type or its corresponding number</li>
+<ol><b><del>Read Cookie from Browser (Deprecated)</del></b>
+<li><del>Select the <code>Extracting cookie from browser</code> option, then follow the prompts to input the browser type or its corresponding number</del></li>
 </ol>
 <ol><b><del>Obtain Cookie via QR Code Login</del> (No longer valid)</b>
 <li><del>Select the <code>Scan code to login and get cookies (DouYin)</code> option, the program will display a login QR code image and open it with the default application</del></li>
@@ -362,6 +360,7 @@ repository to execute the build process
 <li>✅ More suitable for scraping and automation workflows</li>
 <li>✅ Supports HTTP / HTTPS / SOCKS5</li>
 </ul>
+<p>Get 10% off + 500MB free data | Use code: ZCTYUH90</p>
 
 ***
 

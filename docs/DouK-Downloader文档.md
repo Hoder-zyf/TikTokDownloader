@@ -31,9 +31,7 @@
 <li>解压后打开程序文件夹，双击运行 <code>main</code></li>
 </ol>
 <ol><b>配置环境运行</b>
-
-[//]: # (<li>安装不低于 <code>3.12</code> 版本的 <a href="https://www.python.org/">Python</a> 解释器</li>)
-<li>安装 <code>3.12</code> 版本的 <a href="https://www.python.org/">Python</a> 解释器</li>
+<li>安装不低于 <code>3.12</code> 版本的 <a href="https://www.python.org/">Python</a> 解释器</li>
 <li>下载最新的源码或 <a href="https://github.com/JoeanAmier/TikTokDownloader/releases/latest">Releases</a> 发布的源码至本地</li>
 <li>运行 <code>python -m venv venv</code> 命令创建虚拟环境（可选）</li>
 <li>运行 <code>.\venv\Scripts\activate.ps1</code> 或者 <code>venv\Scripts\activate</code> 命令激活虚拟环境（可选）</li>
@@ -43,12 +41,12 @@
 </li>
 <li>阅读 DouK-Downloader 的免责声明，根据提示输入内容</li>
 <li>将 Cookie 信息写入配置文件
-<ol><b>从剪贴板读取 Cookie（推荐）</b>
+<ol><b>从剪贴板读取 Cookie</b>
 <li>参考 <a href="https://github.com/JoeanAmier/TikTokDownloader/blob/master/docs/Cookie%E8%8E%B7%E5%8F%96%E6%95%99%E7%A8%8B.md">Cookie 提取教程</a>，复制所需 Cookie 至剪贴板</li>
 <li>选择 <code>从剪贴板读取 Cookie</code> 选项，程序会自动读取剪贴板的 Cookie 并写入配置文件</li>
 </ol>
-<ol><b>从浏览器读取 Cookie</b>
-<li>选择 <code>从浏览器读取 Cookie</code> 选项，按照提示输入浏览器类型或序号</li>
+<ol><b><del>从浏览器读取 Cookie（弃用）</del></b>
+<li><del>选择 <code>从浏览器读取 Cookie</code> 选项，按照提示输入浏览器类型或序号</del></li>
 </ol>
 <ol><b><del>扫码登录获取 Cookie</del>（失效）</b>
 <li><del>选择 <code>扫码登录获取 Cookie</code> 选项，程序会显示登录二维码图片，并使用默认应用打开图片</del></li>

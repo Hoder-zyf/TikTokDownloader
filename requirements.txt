@@ -24,7 +24,5 @@ qrcode==8.2
     # via douk-downloader (pyproject.toml)
 rich==15.0.0
     # via douk-downloader (pyproject.toml)
-rookiepy==0.5.6
-    # via douk-downloader (pyproject.toml)
 uvicorn==0.46.0
     # via douk-downloader (pyproject.toml)
