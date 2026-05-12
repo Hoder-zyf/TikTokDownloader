@@ -218,7 +218,7 @@ demo()
 <li>批量下载账号作品或合集作品时，如果对应的昵称或标识发生变化，程序会自动更新已下载作品文件名称中的昵称和标识</li>
 <li>程序下载文件时会先将文件下载至临时文件夹，下载完成后再移动至储存文件夹；程序运行结束时会清空临时文件夹</li>
 <li><code>批量下载收藏作品模式</code> 目前仅支持下载当前已登录 Cookie 对应账号的收藏作品，暂不支持多账号</li>
-<li>如果需要程序使用代理请求数据，请在配置文件 <code>settings.json</code> 设置 <code>proxy</code> 参数 (可以考虑使用代理平台: <a href="https://www.swiftproxy.net/?ref=TikTokDownloader">Swiftproxy</a>)</li>
+<li>如果需要程序使用代理请求数据，请在配置文件 <code>settings.json</code> 设置 <code>proxy</code> 参数 (可以考虑使用代理平台: <a href="https://www.swiftproxy.net/?ref=TikTokDownloader">Swiftproxy</a> 或 <a href="https://bestproxy.com/?keyword=btuzoy3b">BestProxy</a>)</li>
 <li>如果您的计算机没有合适的程序编辑 JSON 文件，建议使用 <a href="https://www.toolhelper.cn/JSON/JSONFormat">在线工具</a> 编辑配置文件内容，修改后需要重启软件才能生效。</li>
 <li>当程序请求用户输入内容或链接时，请注意避免输入的内容或链接包含换行符，这可能会导致预期之外的问题</li>
 <li>本项目不会支持付费作品下载，请勿反馈任何关于付费作品下载的问题</li>
@@ -317,28 +317,57 @@ A: 由于权限限制，您无法直接触发主仓库的 Actions。请通过 Fo
 <p><strong>方案一：</strong>下载并解压文件，将旧版本的 <code>_internal\Volume</code> 文件夹复制到新版本的 <code>_internal</code> 文件夹。</p>
 <p><strong>方案二：</strong>下载并解压文件（不要运行程序），复制全部文件，直接覆盖旧版本文件。</p>
 
-# ⚠️ 免责声明
+# 💝 项目赞助
 
-<ol>
-<li>使用者对本项目的使用由使用者自行决定，并自行承担风险。作者对使用者使用本项目所产生的任何损失、责任、或风险概不负责。</li>
-<li>本项目的作者提供的代码和功能是基于现有知识和技术的开发成果。作者按现有技术水平努力确保代码的正确性和安全性，但不保证代码完全没有错误或缺陷。</li>
-<li>本项目依赖的所有第三方库、插件或服务各自遵循其原始开源或商业许可，使用者需自行查阅并遵守相应协议，作者不对第三方组件的稳定性、安全性及合规性承担任何责任。</li>
-<li>使用者在使用本项目时必须严格遵守 <a href="https://github.com/JoeanAmier/TikTokDownloader/blob/master/LICENSE">GNU
-    General Public License v3.0</a> 的要求，并在适当的地方注明使用了 <a
-        href="https://github.com/JoeanAmier/TikTokDownloader/blob/master/LICENSE">GNU General Public License
-    v3.0</a> 的代码。
-</li>
-<li>使用者在使用本项目的代码和功能时，必须自行研究相关法律法规，并确保其使用行为合法合规。任何因违反法律法规而导致的法律责任和风险，均由使用者自行承担。</li>
-<li>使用者不得使用本工具从事任何侵犯知识产权的行为，包括但不限于未经授权下载、传播受版权保护的内容，开发者不参与、不支持、不认可任何非法内容的获取或分发。</li>
-<li>本项目不对使用者涉及的数据收集、存储、传输等处理活动的合规性承担责任。使用者应自行遵守相关法律法规，确保处理行为合法正当；因违规操作导致的法律责任由使用者自行承担。</li>
-<li>使用者在任何情况下均不得将本项目的作者、贡献者或其他相关方与使用者的使用行为联系起来，或要求其对使用者使用本项目所产生的任何损失或损害负责。</li>
-<li>本项目的作者不会提供 DouK-Downloader 项目的付费版本，也不会提供与 DouK-Downloader 项目相关的任何商业服务。</li>
-<li>基于本项目进行的任何二次开发、修改或编译的程序与原创作者无关，原创作者不承担与二次开发行为或其结果相关的任何责任，使用者应自行对因二次开发可能带来的各种情况负全部责任。</li>
-<li>本项目不授予使用者任何专利许可；若使用本项目导致专利纠纷或侵权，使用者自行承担全部风险和责任。未经作者或权利人书面授权，不得使用本项目进行任何商业宣传、推广或再授权。</li>
-<li>作者保留随时终止向任何违反本声明的使用者提供服务的权利，并可能要求其销毁已获取的代码及衍生作品。</li>
-<li>作者保留在不另行通知的情况下更新本声明的权利，使用者持续使用即视为接受修订后的条款。</li>
-</ol>
-<b>在使用本项目的代码和功能之前，请您认真考虑并接受以上免责声明。如果您对上述声明有任何疑问或不同意，请不要使用本项目的代码和功能。如果您使用了本项目的代码和功能，则视为您已完全理解并接受上述免责声明，并自愿承担使用本项目的一切风险和后果。</b>
+## DartNode
+
+[![Powered by DartNode](docs/AD/DartNode_AD.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
+
+***
+
+## ZMTO
+
+<p><a href="https://www.zmto.com/"><img src="https://console.zmto.com/templates/2019/dist/images/logo_dark.svg" alt="ZMTO"></a></p>
+<p><a href="https://www.zmto.com/">ZMTO</a>：一家专业的云基础设施提供商，以可靠的尖端技术与专业支持，提供高效的解决方案，并为符合条件的开源项目提供企业级VPS基础设施，支持开源生态系统的可持续发展与创新。</p>
+
+***
+
+## Swiftproxy
+
+<p><a href="https://www.swiftproxy.net/?ref=TikTokDownloader"><img src="docs/AD/Swiftproxy_CN_AD.png" alt="Swiftproxy"></a></p>
+<p>接入覆盖全球的 8000万+ 住宅 IP，专为 TikTok / 抖音数据采集与下载优化，<a href="https://www.swiftproxy.net/?ref=TikTokDownloader">Swiftproxy</a> 可有效降低限流与封禁风险，保障下载稳定性与自动轮换。</p>
+<p>优惠码：PROXY90（9折）</p>
+
+***
+
+## BestProxy
+
+<p><a href="https://bestproxy.com/?keyword=btuzoy3b"><img src="docs/AD/BestProxy_CN_AD.gif" alt="BestProxy"></a></p>
+<p><a href="https://bestproxy.com/?keyword=btuzoy3b">BestProxy</a> 提供住宅代理与动态 IP，比较适合 TikTok 这种高风控平台的长期自动化场景。</p>
+<ul>
+<li>✅ 高频下载更加稳定</li>
+<li>✅ 请求失败率明显降低</li>
+<li>✅ 多地区内容访问更顺畅</li>
+<li>✅ 更适合长期挂机运行</li>
+<li>✅ 对批量采集和自动化更加友好</li>
+<li>✅ 支持 HTTP / HTTPS / SOCKS5</li>
+</ul>
+
+***
+
+## RapidProxy
+
+<p><a href="https://www.rapidproxy.io/?ref=Jo"><img src="docs/AD/RapidProxy_CN_AD.png" alt="RapidProxy" width="600" height="314"></a></p>
+<p><a href="https://www.rapidproxy.io/?ref=Jo">RapidProxy</a> 提供全球 9000万+ 高质量住宅 IP，专为 TikTok 与短视频平台的数据采集、内容下载及自动化运营场景打造。支持高匿名访问、灵活切换 IP 与长时间稳定连接，帮助提升任务成功率并降低平台风控干扰。</p>
+<p>优惠码：RAPID10（享 9 折优惠）</p>
+
+***
+
+## TikHub
+
+<p><a href="https://tikhub.io/?utm_source=github&utm_medium=readme&utm_campaign=tiktok_downloader&ref=github_joeanamier_tiktokdownloader"><img src="docs/AD/TIKHUB_AD.jpg" alt="TIKHUB" width="458" height="319"></a></p>
+<p><a href="https://tikhub.io/?utm_source=github&utm_medium=readme&utm_campaign=tiktok_downloader&ref=github_joeanamier_tiktokdownloader">TikHub API</a> 提供超过 700 个端点，可用于从 14+ 个社交媒体平台获取与分析数据 —— 包括视频、用户、评论、商店、商品与趋势等，一站式完成所有数据访问与分析。</p>
+<p>使用 <strong>邀请码</strong>：<code>ZrdH8McC</code> 注册并充值即可获得 <code>$2</code> 额度。</p>
 <h1>🌟 贡献指南</h1>
 <p><strong>欢迎对本项目做出贡献！为了保持代码库的整洁、高效和易于维护，请仔细阅读以下指南，以确保您的贡献能够顺利被接受和整合。</strong></p>
 <ul>
@@ -376,34 +405,6 @@ A: 由于权限限制，您无法直接触发主仓库的 Actions。请通过 Fo
 </table>
 <p>如果您愿意，可以考虑提供资助为 <b>DouK-Downloader</b> 提供额外的支持！</p>
 
-# 💰 项目赞助
-
-## DartNode
-
-[![Powered by DartNode](docs/AD/DartNode_AD.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
-
-***
-
-## ZMTO
-
-<p><a href="https://www.zmto.com/"><img src="https://console.zmto.com/templates/2019/dist/images/logo_dark.svg" alt="ZMTO"></a></p>
-<p><a href="https://www.zmto.com/">ZMTO</a>：一家专业的云基础设施提供商，以可靠的尖端技术与专业支持，提供高效的解决方案，并为符合条件的开源项目提供企业级VPS基础设施，支持开源生态系统的可持续发展与创新。</p>
-
-***
-
-## Swiftproxy
-
-<p><a href="https://www.swiftproxy.net/?ref=TikTokDownloader"><img src="docs/AD/Swiftproxy_CN_AD.png" alt="Swiftproxy"></a></p>
-<p>接入覆盖全球的 8000万+ 住宅 IP，专为 TikTok / 抖音数据采集与下载优化，<a href="https://www.swiftproxy.net/?ref=TikTokDownloader">Swiftproxy</a> 可有效降低限流与封禁风险，保障下载稳定性与自动轮换。</p>
-
-***
-
-## TikHub
-
-<p><a href="https://tikhub.io/?utm_source=github&utm_medium=readme&utm_campaign=tiktok_downloader&ref=github_joeanamier_tiktokdownloader"><img src="docs/AD/TIKHUB_AD.jpg" alt="TIKHUB" width="458" height="319"></a></p>
-<p><a href="https://tikhub.io/?utm_source=github&utm_medium=readme&utm_campaign=tiktok_downloader&ref=github_joeanamier_tiktokdownloader">TikHub API</a> 提供超过 700 个端点，可用于从 14+ 个社交媒体平台获取与分析数据 —— 包括视频、用户、评论、商店、商品与趋势等，一站式完成所有数据访问与分析。</p>
-<p>使用 <strong>邀请码</strong>：<code>ZrdH8McC</code> 注册并充值即可获得 <code>$2</code> 额度。</p>
-
 # ✉️ 联系作者
 
 <ul>
@@ -418,6 +419,29 @@ A: 由于权限限制，您无法直接触发主仓库的 Actions。请通过 Fo
 <li><b>XHS-Downloader（小红书、XiaoHongShu、RedNote）</b>：<a href="https://github.com/JoeanAmier/XHS-Downloader">https://github.com/JoeanAmier/XHS-Downloader</a></li>
 <li><b>KS-Downloader（快手、KuaiShou）</b>：<a href="https://github.com/JoeanAmier/KS-Downloader">https://github.com/JoeanAmier/KS-Downloader</a></li>
 </ul>
+
+# ⚠️ 免责声明
+
+<ol>
+<li>使用者对本项目的使用由使用者自行决定，并自行承担风险。作者对使用者使用本项目所产生的任何损失、责任、或风险概不负责。</li>
+<li>本项目的作者提供的代码和功能是基于现有知识和技术的开发成果。作者按现有技术水平努力确保代码的正确性和安全性，但不保证代码完全没有错误或缺陷。</li>
+<li>本项目依赖的所有第三方库、插件或服务各自遵循其原始开源或商业许可，使用者需自行查阅并遵守相应协议，作者不对第三方组件的稳定性、安全性及合规性承担任何责任。</li>
+<li>使用者在使用本项目时必须严格遵守 <a href="https://github.com/JoeanAmier/TikTokDownloader/blob/master/LICENSE">GNU
+    General Public License v3.0</a> 的要求，并在适当的地方注明使用了 <a
+        href="https://github.com/JoeanAmier/TikTokDownloader/blob/master/LICENSE">GNU General Public License
+    v3.0</a> 的代码。
+</li>
+<li>使用者在使用本项目的代码和功能时，必须自行研究相关法律法规，并确保其使用行为合法合规。任何因违反法律法规而导致的法律责任和风险，均由使用者自行承担。</li>
+<li>使用者不得使用本工具从事任何侵犯知识产权的行为，包括但不限于未经授权下载、传播受版权保护的内容，开发者不参与、不支持、不认可任何非法内容的获取或分发。</li>
+<li>本项目不对使用者涉及的数据收集、存储、传输等处理活动的合规性承担责任。使用者应自行遵守相关法律法规，确保处理行为合法正当；因违规操作导致的法律责任由使用者自行承担。</li>
+<li>使用者在任何情况下均不得将本项目的作者、贡献者或其他相关方与使用者的使用行为联系起来，或要求其对使用者使用本项目所产生的任何损失或损害负责。</li>
+<li>本项目的作者不会提供 DouK-Downloader 项目的付费版本，也不会提供与 DouK-Downloader 项目相关的任何商业服务。</li>
+<li>基于本项目进行的任何二次开发、修改或编译的程序与原创作者无关，原创作者不承担与二次开发行为或其结果相关的任何责任，使用者应自行对因二次开发可能带来的各种情况负全部责任。</li>
+<li>本项目不授予使用者任何专利许可；若使用本项目导致专利纠纷或侵权，使用者自行承担全部风险和责任。未经作者或权利人书面授权，不得使用本项目进行任何商业宣传、推广或再授权。</li>
+<li>作者保留随时终止向任何违反本声明的使用者提供服务的权利，并可能要求其销毁已获取的代码及衍生作品。</li>
+<li>作者保留在不另行通知的情况下更新本声明的权利，使用者持续使用即视为接受修订后的条款。</li>
+</ol>
+<b>在使用本项目的代码和功能之前，请您认真考虑并接受以上免责声明。如果您对上述声明有任何疑问或不同意，请不要使用本项目的代码和功能。如果您使用了本项目的代码和功能，则视为您已完全理解并接受上述免责声明，并自愿承担使用本项目的一切风险和后果。</b>
 <h1>⭐ Star 趋势</h1>
 <p>
 <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=JoeanAmier/TikTokDownloader&amp;type=Timeline"/>

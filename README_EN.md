@@ -222,7 +222,7 @@ demo()
 <li>When batch downloading account posts works or mix works, if the corresponding nickname or mark parameter changes, the program will automatically update the nickname and mark parameter in the file names of the downloaded works.</li>
 <li>When downloading files, the program first downloads them to a temporary folder and then moves them to the storage folder upon completion. The temporary folder will be emptied when the program ends.</li>
 <li>The <code>Batch Download Favorites Works Mode</code> currently only supports downloading Favorites works for the account corresponding to the currently logged-in Cookie and does not support multiple accounts.</li>
-<li>If you want the program to use a proxy to request data, set the <code>proxy</code> parameter in the configuration file <code>settings.json</code> (may consider using proxy services like: <a href="https://www.swiftproxy.net/?ref=TikTokDownloader">Swiftproxy</a>)</li>
+<li>If you want the program to use a proxy to request data, set the <code>proxy</code> parameter in the configuration file <code>settings.json</code> (may consider using proxy services like: <a href="https://www.swiftproxy.net/?ref=TikTokDownloader">Swiftproxy</a> or <a href="https://bestproxy.com/?keyword=btuzoy3b">BestProxy</a>)</li>
 <li>If your computer does not have a suitable program for editing JSON files, we recommend using the <a href="https://www.toolhelper.cn/JSON/JSONFormat">Online Tool</a> to edit the configuration file content, after modification, the software needs to be restarted to take effect.</li>
 <li>When the program prompts the user to input content or links, please be careful to avoid including newline characters, as this may cause unexpected issues.</li>
 <li>This project does not support downloading paid works. Please do not report any issues related to downloading paid works.</li>
@@ -327,24 +327,57 @@ repository to execute the build process
 <p><strong>Method 1:</strong> Download and extract the files, then copy the old version of the <code>_internal\Volume</code> folder into the new version's <code>_internal</code> folder.</p>
 <p><strong>Method 2:</strong> Download and extract the files (do not run the program), then copy all files and directly overwrite the old version.</p>
 
-# ⚠️ Disclaimer
+# 💝 Project Sponsorship
 
-<ol>
-<li>The user's use of this project is entirely at their own discretion and responsibility. The author assumes no liability for any losses, claims, or risks arising from the user's use of this project.</li>
-<li>The code and functionalities provided by the author of this project are based on current knowledge and technological developments. The author strives to ensure the correctness and security of the code according to existing technical capabilities but does not guarantee that the code is entirely free of errors or defects.</li>
-<li>All third-party libraries, plugins, or services relied upon by this project follow their respective open-source or commercial licenses. Users must review and comply with those license agreements. The author assumes no responsibility for the stability, security, or compliance of third-party components.</li>
-<li>Users must strictly comply with the requirements of the <a href="https://github.com/JoeanAmier/TikTokDownloader/blob/master/LICENSE">GNU General Public License v3.0</a> when using this project and properly indicate that the code was used under the <a href="https://github.com/JoeanAmier/TikTokDownloader/blob/master/LICENSE">GNU General Public License v3.0</a>.</li>
-<li>When using the code and features of this project, users must independently research relevant laws and regulations and ensure their actions are legal and compliant. Any legal liabilities or risks arising from violations of laws and regulations shall be borne solely by the user.</li>
-<li>Users must not use this tool to engage in any activities that infringe intellectual property rights, including but not limited to downloading or distributing copyright-protected content without authorization. The developers do not participate in, support, or endorse any unauthorized acquisition or distribution of illegal content.</li>
-<li>This project assumes no responsibility for the compliance of any data processing activities (including collection, storage, and transmission) conducted by users. Users must comply with relevant laws and regulations and ensure that their processing activities are lawful and proper. Legal liabilities resulting from non-compliant operations shall be borne by the user.</li>
-<li>Under no circumstances may users associate the author, contributors, or other related parties of this project with their usage of the project, nor may they hold these parties responsible for any loss or damage arising from such usage.</li>
-<li>The author of this project will not provide a paid version of the DouK-Downloader project, nor will they offer any commercial services related to the DouK-Downloader project.</li>
-<li>Any secondary development, modification, or compilation based on this project is unrelated to the original author. The original author assumes no liability for any consequences resulting from such secondary development. Users bear full responsibility for all outcomes arising from such modifications.</li>
-<li>This project grants no patent licenses; if the use of this project leads to patent disputes or infringement, the user bears all associated risks and responsibilities. Without written authorization from the author or rights holder, users may not use this project for any commercial promotion, marketing, or re-licensing.</li>
-<li>The author reserves the right to terminate service to any user who violates this disclaimer at any time and may require them to destroy all obtained code and derivative works.</li>
-<li>The author reserves the right to update this disclaimer at any time without prior notice. Continued use of the project constitutes acceptance of the revised terms.</li>
-</ol>
-<b>Before using the code and functionalities of this project, please carefully consider and accept the above disclaimer. If you have any questions or disagree with the statement, please do not use the code and functionalities of this project. If you use the code and functionalities of this project, it is considered that you fully understand and accept the above disclaimer, and willingly assume all risks and consequences associated with the use of this project.</b>
+## DartNode
+
+[![Powered by DartNode](docs/AD/DartNode_AD.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
+
+***
+
+## ZMTO
+
+<p><a href="https://www.zmto.com/"><img src="https://console.zmto.com/templates/2019/dist/images/logo_dark.svg" alt="ZMTO"></a></p>
+<p><a href="https://www.zmto.com/">ZMTO</a>: A professional cloud infrastructure provider offering sophisticated solutions with reliable technology and expert support. We also empower qualified open source initiatives with enterprise-grade VPS infrastructure, driving sustainable development and innovation in the open source ecosystem. </p>
+
+***
+
+## Swiftproxy
+
+<p><a href="https://www.swiftproxy.net/?ref=TikTokDownloader"><img src="docs/AD/Swiftproxy_EN_AD.png" alt="Swiftproxy"></a></p>
+<p>Access a global pool of 80M+ residential IPs optimized for TikTok and Douyin data extraction. <a href="https://www.swiftproxy.net/?ref=TikTokDownloader">Swiftproxy</a> helps bypass rate limits, reduce blocks, and ensures stable downloads with seamless IP rotation.</p>
+<p>10% off code: PROXY90</p>
+
+***
+
+## BestProxy
+
+<p><a href="https://bestproxy.com/?keyword=btuzoy3b"><img src="docs/AD/BestProxy_EN_AD.gif" alt="BestProxy"></a></p>
+<p><a href="https://bestproxy.com/?keyword=btuzoy3b">BestProxy</a> provides residential proxies and dynamic IP solutions that work particularly well for high-risk platforms like TikTok.</p>
+<ul>
+<li>✅ More stable high-volume downloading</li>
+<li>✅ Lower request failure rates</li>
+<li>✅ Better access to region-specific content</li>
+<li>✅ Improved long-session stability</li>
+<li>✅ More suitable for scraping and automation workflows</li>
+<li>✅ Supports HTTP / HTTPS / SOCKS5</li>
+</ul>
+
+***
+
+## RapidProxy
+
+<p><a href="https://www.rapidproxy.io/?ref=Jo"><img src="docs/AD/RapidProxy_EN_AD.png" alt="RapidProxy" width="600" height="314"></a></p>
+<p><a href="https://www.rapidproxy.io/?ref=Jo">RapidProxy</a> provides 90M+ high-quality residential IPs worldwide, built for TikTok and short-video platform data collection, content downloading, and automation workflows. With high-anonymity access, flexible IP rotation, and stable long-session connections, <a href="https://www.rapidproxy.io/?ref=Jo">RapidProxy</a> helps improve task success rates while reducing platform detection and risk controls.</p>
+<p>Coupon Code: RAPID10 → Get 10% OFF</p>
+
+***
+
+## TikHub
+
+<p><a href="https://tikhub.io/?utm_source=github&utm_medium=readme&utm_campaign=tiktok_downloader&ref=github_joeanamier_tiktokdownloader"><img src="docs/AD/TIKHUB_AD.jpg" alt="TIKHUB" width="458" height="319"></a></p>
+<p><a href="https://tikhub.io/?utm_source=github&utm_medium=readme&utm_campaign=tiktok_downloader&ref=github_joeanamier_tiktokdownloader">TikHub API</a> offers over 700 endpoints to retrieve and analyze data from 14+ social media platforms—including videos, users, comments, stores, products, trends, and more—enabling one-stop access and analysis of all your data.</p>
+<p>Use <strong>invitation code</strong>: <code>ZrdH8McC</code> to register and recharge to get <code>$2</code> credit.</p>
 <h1>🌟 Contribution Guidelines</h1>
 <p><strong>Welcome to contributing to this project! To keep the codebase clean, efficient, and easy to maintain, please read the following guidelines carefully to ensure that your contributions can be accepted and integrated smoothly.</strong></p>
 <ul>
@@ -381,34 +414,6 @@ repository to execute the build process
 </table>
 <p>If you're willing, consider making a contribution to provide additional support for <b>DouK-Downloader</b>!</p>
 
-# 💰 Project Sponsorship
-
-## DartNode
-
-[![Powered by DartNode](docs/AD/DartNode_AD.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
-
-***
-
-## ZMTO
-
-<p><a href="https://www.zmto.com/"><img src="https://console.zmto.com/templates/2019/dist/images/logo_dark.svg" alt="ZMTO"></a></p>
-<p><a href="https://www.zmto.com/">ZMTO</a>: A professional cloud infrastructure provider offering sophisticated solutions with reliable technology and expert support. We also empower qualified open source initiatives with enterprise-grade VPS infrastructure, driving sustainable development and innovation in the open source ecosystem. </p>
-
-***
-
-## Swiftproxy
-
-<p><a href="https://www.swiftproxy.net/?ref=TikTokDownloader"><img src="docs/AD/Swiftproxy_EN_AD.png" alt="Swiftproxy"></a></p>
-<p>Access a global pool of 80M+ residential IPs optimized for TikTok and Douyin data extraction. <a href="https://www.swiftproxy.net/?ref=TikTokDownloader">Swiftproxy</a> helps bypass rate limits, reduce blocks, and ensures stable downloads with seamless IP rotation.</p>
-
-***
-
-## TikHub
-
-<p><a href="https://tikhub.io/?utm_source=github&utm_medium=readme&utm_campaign=tiktok_downloader&ref=github_joeanamier_tiktokdownloader"><img src="docs/AD/TIKHUB_AD.jpg" alt="TIKHUB" width="458" height="319"></a></p>
-<p><a href="https://tikhub.io/?utm_source=github&utm_medium=readme&utm_campaign=tiktok_downloader&ref=github_joeanamier_tiktokdownloader">TikHub API</a> offers over 700 endpoints to retrieve and analyze data from 14+ social media platforms—including videos, users, comments, stores, products, trends, and more—enabling one-stop access and analysis of all your data.</p>
-<p>Use <strong>invitation code</strong>: <code>ZrdH8McC</code> to register and recharge to get <code>$2</code> credit.</p>
-
 # ✉️ Contact the Author
 
 <ul>
@@ -422,6 +427,25 @@ repository to execute the build process
 <li><b>XHS-Downloader（小红书、XiaoHongShu、RedNote）</b>：<a href="https://github.com/JoeanAmier/XHS-Downloader">https://github.com/JoeanAmier/XHS-Downloader</a></li>
 <li><b>KS-Downloader（快手、KuaiShou）</b>：<a href="https://github.com/JoeanAmier/KS-Downloader">https://github.com/JoeanAmier/KS-Downloader</a></li>
 </ul>
+
+# ⚠️ Disclaimer
+
+<ol>
+<li>The user's use of this project is entirely at their own discretion and responsibility. The author assumes no liability for any losses, claims, or risks arising from the user's use of this project.</li>
+<li>The code and functionalities provided by the author of this project are based on current knowledge and technological developments. The author strives to ensure the correctness and security of the code according to existing technical capabilities but does not guarantee that the code is entirely free of errors or defects.</li>
+<li>All third-party libraries, plugins, or services relied upon by this project follow their respective open-source or commercial licenses. Users must review and comply with those license agreements. The author assumes no responsibility for the stability, security, or compliance of third-party components.</li>
+<li>Users must strictly comply with the requirements of the <a href="https://github.com/JoeanAmier/TikTokDownloader/blob/master/LICENSE">GNU General Public License v3.0</a> when using this project and properly indicate that the code was used under the <a href="https://github.com/JoeanAmier/TikTokDownloader/blob/master/LICENSE">GNU General Public License v3.0</a>.</li>
+<li>When using the code and features of this project, users must independently research relevant laws and regulations and ensure their actions are legal and compliant. Any legal liabilities or risks arising from violations of laws and regulations shall be borne solely by the user.</li>
+<li>Users must not use this tool to engage in any activities that infringe intellectual property rights, including but not limited to downloading or distributing copyright-protected content without authorization. The developers do not participate in, support, or endorse any unauthorized acquisition or distribution of illegal content.</li>
+<li>This project assumes no responsibility for the compliance of any data processing activities (including collection, storage, and transmission) conducted by users. Users must comply with relevant laws and regulations and ensure that their processing activities are lawful and proper. Legal liabilities resulting from non-compliant operations shall be borne by the user.</li>
+<li>Under no circumstances may users associate the author, contributors, or other related parties of this project with their usage of the project, nor may they hold these parties responsible for any loss or damage arising from such usage.</li>
+<li>The author of this project will not provide a paid version of the DouK-Downloader project, nor will they offer any commercial services related to the DouK-Downloader project.</li>
+<li>Any secondary development, modification, or compilation based on this project is unrelated to the original author. The original author assumes no liability for any consequences resulting from such secondary development. Users bear full responsibility for all outcomes arising from such modifications.</li>
+<li>This project grants no patent licenses; if the use of this project leads to patent disputes or infringement, the user bears all associated risks and responsibilities. Without written authorization from the author or rights holder, users may not use this project for any commercial promotion, marketing, or re-licensing.</li>
+<li>The author reserves the right to terminate service to any user who violates this disclaimer at any time and may require them to destroy all obtained code and derivative works.</li>
+<li>The author reserves the right to update this disclaimer at any time without prior notice. Continued use of the project constitutes acceptance of the revised terms.</li>
+</ol>
+<b>Before using the code and functionalities of this project, please carefully consider and accept the above disclaimer. If you have any questions or disagree with the statement, please do not use the code and functionalities of this project. If you use the code and functionalities of this project, it is considered that you fully understand and accept the above disclaimer, and willingly assume all risks and consequences associated with the use of this project.</b>
 <h1>⭐ Star History</h1>
 <p>
 <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=JoeanAmier/TikTokDownloader&amp;type=Timeline"/>

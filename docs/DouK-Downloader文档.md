@@ -16,7 +16,7 @@
 </div>
 <br>
 <p>🔥 <b>TikTok 发布/喜欢/合辑/直播/视频/图集/音乐；抖音发布/喜欢/收藏/收藏夹/视频/图集/实况/直播/音乐/合集/评论/账号/搜索/热榜数据采集工具：</b>完全开源，基于 HTTPX 模块实现的免费数据采集和文件下载工具；批量下载抖音账号发布、喜欢、收藏、收藏夹作品；批量下载 TikTok 账号发布、喜欢作品；下载抖音链接或 TikTok 链接作品；获取抖音直播拉流地址；下载抖音直播视频；获取 TikTok 直播拉流地址；下载 TikTok 直播视频；采集抖音作品评论数据；批量下载抖音合集作品；批量下载 TikTok 合辑作品；采集抖音账号详细数据；采集抖音用户 / 作品 / 直播搜索结果；采集抖音热榜数据。</p>
-<p>⭐ <b>项目版本：<code>5.8 Beta</code>；文档更新日期：<code>2026/4/22</code></b></p>
+<p>⭐ <b>项目版本：<code>5.8 Beta</code>；文档更新日期：<code>2026/5/12</code></b></p>
 <p>⭐ <b>项目文档正在完善，如果发现任何错误或描述模糊之处，请告知作者以便改进！本项目历史名称：<code>TikTokDownloader</code></b></p>
 <p>⭐ Due to the author’s limited time and energy, the complete English documentation for this project is not yet available. If you wish to read the full documentation, we recommend using AI translation tools to assist your understanding. If you would like to contribute to the translation, your help is warmly welcomed.</p>
 <hr>
@@ -1280,6 +1280,8 @@ A:
 A: 由于权限限制，您无法直接触发主仓库的 Actions。请通过 Fork 仓库的方式执行打包流程
 
 <h1>常见问题与解决方案</h1>
+<h2>Windows 系统运行已编译的程序发生闪退</h2>
+<p>已编译的程序发生异常报错，参考 <a href="https://github.com/JoeanAmier/TikTokDownloader/issues/127">issue</a> 获取异常报错信息，向作者反馈问题！</p>
 <h2>响应内容不是有效的 JSON 数据</h2>
 <p>可能是 Cookie 无效或者接口失效；请尝试清除 DNS 缓存，更新 Cookie，如果仍然无法解决，可能是接口失效，请考虑向作者反馈！</p>
 <h2 id="twc">获取 ttwid 参数失败</h2>
@@ -1303,6 +1305,8 @@ A: 由于权限限制，您无法直接触发主仓库的 Actions。请通过 Fo
 <p>网络异常；如果您的网络需要使用代理才能访问 TikTok，请在配置文件设置 <code>proxy</code> 参数！</p>
 <h2>self 获取账号信息失败</h2>
 <p>请把配置文件的 <code>owner_url</code> 参数修改为实际的抖音主页链接，获取方式请查阅 <a href="https://github.com/JoeanAmier/TikTokDownloader/issues/416">issue</a></p>
+<h2>下载抖音账号作品时无法获取最新发布作品或者作品数量不全</h2>
+<p>登录状态和未登录状态下的作品数据获取结果不同，参考 <a href="https://github.com/JoeanAmier/TikTokDownloader/issues/145">issue</a></p>
 <h1>免责声明</h1>
 <ol>
 <li>使用者对本项目的使用由使用者自行决定，并自行承担风险。作者对使用者使用本项目所产生的任何损失、责任、或风险概不负责。</li>
